@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <!-- navbar.css contains css for the navbar for the desktop(Login box, register button) 
+        and mobile(sidebar-left sidebar-right) and wrapper  -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <!-- fonts contain the font you need to use for the rest of the website project -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <title>BiTenar | Reinventing Buzzer</title>
+</head>
+
+<body>
+         <!-- to black the screen when the navbar is on mobile form  -->
+        <div class="overlay" id="overlay"></div> 
+        <!-- wrapper for the content navbar. Being used like container in bootstrap -->
+        <div class="wrapper">
+                <!-- sidebar left content when the navbar is mobile -->
+                <nav id="sidebar-left">
+                    <div class="sidebar-header-left">
+                        <div class="sidebar-header-left-content pt-2">
+                            <span class="display-4">Bitenar |</span>     
+                            <!-- the arrow to hide the left sidebar-->
+                            <span class="arrow-left"> 
+                                <a class="p-2" id="hide-left">
+                                    <i class="fa fa-arrow-left"></i>
+                                </a> 
+                            </span>
+                        </div>
+                    </div>
+                    <!-- sidebar content -->
+                    <div class="sidebar-left-body mt-3">
+                        <form>
+                            <input class="form-control" type="text" name="search" id="search" placeholder="Cari buzzer ganteng">
+                        </form>
+                        <div class="service-container mt-3">
+                            <span class="service-text">
+                                Layanan
+                            </span>
+                            
+                            <hr>
+                            <ul class="list-style mt-2">
+                                <li><a href="#">Layanan 1</a></li>
+                                <li><a href="#">Layanan 2</a></li>
+                                <li><a href="#">Layanan 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- content of the website -->
+                <div id="home">
+                    <!-- the navbar of the website -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <!-- navbar for the desktop version -->
+                        <ul id="navbar-desktop" class="navbar-nav">
+                            <a href="#" class="navbar-brand">Buzzer |</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Layanan
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>    
+                            <form class="ml-auto form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                            <li class="nav-item"> 
+                                <a class="nav-link navbar-login-desktop" id="loginbtn-desktop">
+                                    <i class="fa fa-user"></i>
+                                    Login
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="register.html" class="nav-link ml-3 navbar-register">
+                                    <i class="fa fa-user-plus"></i>
+                                    Sign up
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <!-- navbar for the mobile version -->
+                        <div class="container-fluid hide-navbar" id="navbar-mobile">
+                          <a class="mr-auto nav-button" id="bar">
+                              <i class="fa fa-bars"></i>
+                          </a>
+                          <a class="nav-button" id="login-btn">
+                                <i class="fa fa-user"></i>
+                          </a>
+
+                          <a class="mx-2 p-1 nav-button navbar-register" href="register.html" id="register-btn">
+                              <i class="fa fa-user-plus"></i>
+                              Sign up
+                          </a>
+                        </div>
+                    </nav>
+                    
+    <div class="jual">
+    <!-- the login desktop box -->
+    <div id="login-desktop" class="p-3 hide-navbar">
+        <h4>Login</h4>
+    <form action="#">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" type="email" id="email" name="email" placeholder=""> 
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" id="password" name="password" placeholder=""> 
+        <small><a href="forgotPassword.html" style="color: #3498db">Forgot your password ?</a></small>
+    </div>
+    <button type="submit" class="btn mr-2">Login</button>
+    <div class="my-3" style="text-align: center">Or login with</div>
+    <div class="login-image-container mt-2">
+        <a id="facebook-parent" href="#"><img class="facebook-icon" src="assets/img/facebook-icon.png" alt="facebook-icon"></a>
+        <a class="ml-2" href="#"><img class="google-icon" src="assets/img/google-icon.jpg" alt="google-icon"></a>
+            </div>
+        </form>
+    </div>
+
+ <!-- Body Website setelah Navigation Bar -->
+            <div class="atas">
+                <h1><b>Buzzer Reinvented</b></h1>
+                <h2>Anda Cari Talented Buzzer Murah, HANYA ADA Disini!!!</h2>
+                <br>
+                <br>
+                <br>
+                <a class="nav-link2 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none;color: #333;">
+                  Apakah Yang Anda Butuhkan?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropd own-item" href="#">Lainnya</a>
+                </div>
+            </div>
+            <div class="tengah col-md-12 col-lg-12">
+                <div id="card" class="row">
+                    
+                    <div class="video col-md-2 col-lg-2 col-sm-10">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-KOeQapXsx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div id="description" class="text-justify offset-md-1 offset-lg-1 col-md-4 col-lg-4 col-sm-12">
+                        Apa itu BiTenar?
+                        <br>
+                        <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos laboriosam harum dolores, voluptate inventore quae. Voluptatem ducimus quaerat, vero maiores, explicabo, sapiente placeat sunt nostrum impedit quis ipsam dicta.
+                    </div>
+                    
+                </div> 
+                <br><br><br>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iure repellendus aliquid cupiditate provident itaque. Beatae maxime sint nemo sequi nesciunt rem neque, eius amet ad repellat numquam laboriosam ducimus.</h3>
+            </div>
+    </div>
+  <!-- Carusel untuk Grid ngeslide otomatis beserta dengan gridnya -->
+    <div id="carouselX" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselX" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselX" data-slide-to="1" class=""></li>
+        <li data-target="#carouselX" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item satu">
+            <div class="flex-container">
+            <div>Buzzer Tampan - 60th~<br>
+                
+          <!-- Grid Bagian 1 -->
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border: solid 1px #000000 ;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt="" class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+    </div>
+    </div>
+        </div>
+        <div class="carousel-item dua">
+            <div class="flex-container">
+            <div>
+          Buzzer Tampan - 40th~<br>
+          <!-- Grid Bagian 2 -->
+          <div class="bingkai col-md-3 col-lg-3 col-sm-12" style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt="" class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+    </div>
+    </div> 
+        </div>
+        <div class="carousel-item tiga active">
+            <div class="flex-container">
+          <div>
+          Buzzer Tampan - 17th~<br>
+          <!-- Grid Bagian 3 -->
+          <div class="bingkai col-md-3 col-lg-3 col-sm-12" style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt="" class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+        <div class="bingkai col-md-3 col-lg-3 col-sm-12"style="float : left;height: 160px;padding: 0px;border : solid 1px #000000;width: 160px;">
+            <img src="https://approachschoolofmotoring.co.uk/wp/wp-content/uploads/2019/01/profile-plain-300x278.png" width="160px" height="160px" alt=""class="galery">
+        </div>
+    </div>
+        </div>
+    </div>
+      </div>
+      <!-- Slide Previous dan Next di Carousel -->
+      <a class="carousel-control-prev" href="#carouselX" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselX" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Footer -->  
+    <div class="text-left col-md-12 col-lg-12 footer" id="footer">
+            <div class="col-md-6 col-lg-6 col-sm-6" style='float:left'>
+            <h1>Lainnya</h1>
+            <ul> 
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Syarat Ketentuan</a>
+                    </li>
+                    <li>
+                        <a href="#">Stok Foto</a>
+                    </li>
+            </ul>
+            </div>
+            <div class="kanan col-md-6 col-lg-6 col-sm-6">
+            <h1>Follow Kami</h1>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="bitenar col-md-12 col-lg-12 col-sm-12">
+                <h3>BiTenar &copy; 2019</h3>
+            </div>
+        </div>
+                </div>
+
+            <!-- sidebar right content when the navbar is mobile -->
+                <nav id="sidebar-right">
+                    <div class="sidebar-header-right">
+                        <div class="sidebar-header-right-content pt-2">
+                          <!-- the arrow to right the left sidebar-->
+                            <span class="arrow-right">
+                                    <a class="p-2" id="hide-right">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a> 
+                            </span>
+                            <img src="assets/img/user-icon.png" alt="user-icon">
+                            <div class="sidebar-header-right-text">Hi Users!</div>
+                        </div>
+                    </div>
+                    <div class="sidebar-right-body mt-3">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input class="form-control" type="password" name="password" id="password">
+                                <small><a href="forgotPassword.html">Forgot your password</a></small>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                        <div class="login-with mb-2">
+                            Or login with :
+                        </div>
+                        <div class="login-with">
+                            <a href="#" ><img class="facebook-icon" src="assets/img/facebook-icon.png" alt="facebook-icon"></a>
+                            <div class="vertical-line mx-2"></div>
+                            <a href="#"><img class="google-icon" src="assets/img/google-icon.jpg" alt="google-icon"></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- script for listen the window whether it's on the mobile mode or desktop mode -->
+<script src="assets/js/windowListener.js"></script>
+<!-- script for the mobile navbar -->
+<script src="assets/js/navbar-mobile.js"></script>
+<!-- script for the desktop navbar -->
+<script src="assets/js/navbar-desktop.js"></script>
+</body>
+</html>

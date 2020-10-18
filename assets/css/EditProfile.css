@@ -1,0 +1,86 @@
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar-nav{
+    padding-left: 10px;
+}
+
+.navbar-nav a{
+    color: black;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../img/RegisterBackground.jpeg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.MainFrame{
+    margin-top: 3vw;
+    background-color: white;
+    border-radius: 2vw;
+    width: 75vw;
+    padding: 1vw;
+}
+
+.PhotoFrame{
+    text-align: center;
+    margin: 1vw;
+}
+
+#ProfilePic{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+}
+
+.NameFrame{
+    text-align: center;
+}
+
+#name{
+    font-size: 6vw;
+}
+
+#ProfilePiclabel{
+    width: 5vw;
+    height: 5vw;
+}
+
+.identityFrame{
+    text-align: left;
+}
+
+.quesAndAns{
+    padding-left: 30px; 
+}
+
+.btnContainer{
+    text-align: center;
+}
+
+.btn{
+    background-color: #0F75BC;
+    border-radius: 1vw;
+    color: white;
+    text-align: center;
+}
+
+#btnEdit{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SecQuestionOption{
+    width: 236px;
+}
+
+#SecQuestionAns{
+    width: 236px;
+}

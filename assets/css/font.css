@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Light.woff') format('woff'),
+        url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Italic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-ThinItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-ExtraLight.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato/Lato-HairlineItalic.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-HairlineItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-BlackItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Black.woff') format('woff'),
+        url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-BoldItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('../fonts/Maven_Pro/MavenPro-Black.woff2') format('woff2'),
+        url('../fonts/Maven_Pro/MavenPro-Black.woff') format('woff'),
+        url('../fonts/Maven_Pro/MavenPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('../fonts/Maven_Pro/MavenPro-Bold.woff2') format('woff2'),
+        url('../fonts/Maven_Pro/MavenPro-Bold.woff') format('woff'),
+        url('../fonts/Maven_Pro/MavenPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-LightItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-LightItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('../fonts/Maven_Pro/MavenPro-Medium.woff2') format('woff2'),
+        url('../fonts/Maven_Pro/MavenPro-Medium.woff') format('woff'),
+        url('../fonts/Maven_Pro/MavenPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Italic.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Italic.woff') format('woff'),
+        url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-MediumItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-BlackItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato/Lato-Hairline.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Hairline.woff') format('woff'),
+        url('../fonts/Lato/Lato-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-ExtraBold.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Light.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('../fonts/Maven_Pro/MavenPro-Regular.woff2') format('woff2'),
+        url('../fonts/Maven_Pro/MavenPro-Regular.woff') format('woff'),
+        url('../fonts/Maven_Pro/MavenPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-LightItalic.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-LightItalic.woff') format('woff'),
+        url('../fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Thin.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

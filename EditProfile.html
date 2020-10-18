@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bitenar/assets/css/EditProfile.css">
+    
+
+    <title>BiTenar | Reinventing Buzzer</title>
+</html>
+<body>
+    <nav class="navbar-expand-md bg-light" id="nav-left">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link"> < back</a>
+        </li>
+        <a href="#" class="navbar-brand">BiTenar</a>
+        </ul>
+    </nav>
+
+    <div class="container MainFrame">
+        <div class="row">
+            <div class="PhotoFrame col-md-12">
+                <img src="../Bitenar/assets/img/ProfilePictureBlank.png" id="ProfilePic" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="NameFrame col-md-12">
+                <span class="identityDetail" id="name">ABCDEFHI</span>
+            </div>
+        </div>
+        <div class="row identityFrame">
+            <div class="form-group col-md-3">
+                <span class="identityDetail">Date of Birth  :</span>
+            </div>
+            <div class="form-group col-md-2" id="Birthdaydate">
+                <input type="text" class="form-control" id="date" placeholder="Date">
+            </div>
+            <div class="form-group col-md-2" id="Birthdaymonth">
+                <input type="text" class="form-control" id="month" placeholder="Month">
+            </div>
+            <div class="form-group col-md-2" id="BirthdayYear">
+                <input type="text" class="form-control" id="Year" placeholder="Year">
+            </div>
+        </div>
+        <div class="row identityFrame">
+            <div class="form-group col-md-3">
+                <span class="identityDetail">Gender  :</span>
+            </div>
+            <div class="form-group col-md-5">
+                <input type="text" class="form-control" id="gender" placeholder="Gender">
+            </div>
+        </div>
+        <div class="row identityFrame">
+            <div class="form-group col-md-3">
+                <span class="identityDetail">Email  :</span>
+            </div>
+            <div class="form-group col-md-5">
+                <input type="text" class="form-control" id="Email" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="row identityFrame">
+            <div class="form-group col-md-3">
+                <span class="identityDetail">Sequrity Question  :</span>
+            </div>
+            <div class="form-group col-md-5 quesAndAns " >
+                <div class="row">
+                    <select id="SecQuestionOption">
+                        <option value="A">What was your childhood nickname?</option>
+                        <option value="B">What is the middle name of your youngest child?</option>
+                        <option value="C">What was the name of your first stuffed animal?</option>
+                        <option value="D">What was the last name of your third grade teacher?</option>
+                        <option value="E">What is the name of the place your wedding reception was held?</option>
+                        <option value="F">What school did you attend for sixth grade?</option>
+                        <option value="G">What is the name of a college you applied to but didn't attend?</option>
+                        <option value="H">What is the name of the place your wedding reception was held?</option>
+                        <option value="I">In what city or town was your first job?</option>
+                        <option value="J">In what city or town did your mother and father meet? </option>
+                    </select>                
+                </div>
+                <div class="row">
+                    <input type="text" class="form-control" id="SecQuestionAns" placeholder="Answer">
+                </div>
+            </div>
+        </div>
+        <div class="row identityFrame">
+            <div class="form-group col-md-3">
+                <span class="identityDetail">Nomor Rekening  :</span>
+            </div>
+            <div class="form-group col-md-5">
+                <input type="text" class="form-control" id="NoRek" placeholder="Nomor Rekening">
+            </div>
+        </div>
+        <div class="row btnContainer">
+                <button type="button" class="btn" id="btnEdit">Save </button>
+        </div>
+    </div>
+</body>

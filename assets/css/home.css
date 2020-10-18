@@ -1,0 +1,593 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
+    /* CSS untuk desain dasar ( background ) */
+    #home{
+    background: url('../img/background.png');
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
+    /* CSS untuk Judul, Dropdown, dan Video (tidak termasuk navbar, footer, dan grid */
+    .jual{
+    display: flex;
+     position: relative; /* To make login pop up stay  */
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* min-height: 100vh; */
+    }
+    /*  
+    --masih bagian dari class jual( isi dari website diluar navbar,grid dan footer)--
+    CSS untuk tata letak video dan teks disamping maupun dibawahnya
+    */
+    .tengah{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    }
+    /* CSS untuk desain teks dibawah video  */
+    .tengah h5{
+    width: 40em;
+    height: 5em;
+    color: white;
+    text-align: center;
+    }
+    
+    /* Desain Dropdown Apa yang anda butuhkan */
+    .nav-link2{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px; 
+    text-decoration: none;
+    }
+    /* Warna tulisan ketika nyentuh kursor */
+    .nav-link2:hover{
+    color: blue;
+    }
+    /* Posisi Judul dan dropdown */
+    .atas{
+    text-align: center;
+    
+    }
+    /* desain font dan warna Judul " Buzzer Reinvented " */
+    .atas h1{
+    font-size: 150px;
+    color: white;
+    
+    }
+    /* Desain font dan warna Judul " Anda Cari Talented Buzzer ... " */
+    .atas h2{
+    font-size: 50px;
+    color: white;
+    }
+    
+    /* Desain Untuk Button Login
+    .bton {
+    border: none;
+    color: #0F75BC;
+    padding: 12px 16px;
+    background: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    } */
+    
+    /* color background on mouse-over */
+    .buton:hover {
+    background-color: turquoise;
+    }
+    /* CSS untuk video dan teks disamping maupun dibawahnya */
+    #card{
+    width: 50em;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+    margin-bottom: -50px;
+    text-align: center;
+    color: white;
+    }
+    
+    
+    ul{
+        list-style-type:none
+    }
+    
+    /* teks disamping video */
+    #description{
+        font-size: 12pt;
+    }
+    
+    
+    /* CSS untuk footer */
+    #footer{
+    color: #fff;
+    position:relative;
+    margin-top: 200px;   
+    padding-top: 50px;
+    height: 40%;
+    background: #0277bd;
+    }
+    
+    a{
+        color: #fafafa;
+    }
+    
+    /* items didalam dropdown "Apa Yang Anda Butuhkan? " */
+    .dropdown-item {
+        width: 405px;
+    }
+    
+    /* Posisi tombol slide bagian bawah */
+    .carousel-indicators{
+        top: 100%;
+     }
+     
+     /* ini css untuk foto foto Buzzer */
+     .flex-container{ 
+         position: relative;
+         cursor: pointer;
+         width: 63.3%; 
+         margin-left: 18%;
+     }
+     /* Follow Kami */
+     .kanan{
+         float: left; 
+         left: -20%;
+     }
+    
+    @media (min-width: 1440px) {
+    
+    body{
+      margin: 0;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+      }
+      #home{
+      background: url('../img/background.png');
+      overflow: auto;
+      width: 100%;
+      height: 100vh;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      }
+    
+      .jual{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: space-around;
+      /* min-height: 100vh; */
+      }
+    
+      .tengah{
+      width: 80%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      }
+      
+      .tengah h5{
+      width: 40em;
+      height: 5em;
+      color: white;
+      text-align: center;
+      }
+      
+      /* Desain Dropdown Apa yang anda butuhkan */
+      .nav-link2{
+      background-color: white;
+      font-size: 32px;
+      padding: 20px; 
+      text-decoration: none;
+      }
+      /* Warna tulisan ketika nyentuh kursor */
+      .nav-link2:hover{
+      color: blue;
+      }
+      .atas{
+      text-align: center;
+      }
+      
+      .atas h1{
+        margin-top: 5%;
+        font-size: 100px;
+        color: white;
+      
+      }
+      
+      .atas h2{
+      font-size: 35px;
+      color: white;
+      }
+      
+      /* Untuk Login */
+      .bton {
+      border: none;
+      color: #0F75BC;
+      padding: 12px 16px;
+      background: transparent;
+      font-size: 14px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      /* Untuk SignUp */
+      .button {
+      background-color: #0F75BC;
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      }
+      /* color background on mouse-over */
+      .buton:hover {
+      background-color: turquoise;
+      }
+      
+      #card{
+      width: 50em;
+      height: 30em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: transparent;
+      border: none;
+      margin: 0px;
+      margin-bottom: -50px;
+      text-align: center;
+      color: white;
+      }
+    
+      ul{
+          list-style-type:none
+      }
+      
+      #description{
+        font-size: 13.5pt;
+        left: 10%;
+      }
+      
+      #loginMenu{
+          margin:10px;
+      }
+      
+      #loginRounded{
+          background: #232323;
+          border-radius: 360px;
+          height: 300px;
+          width: 300px;
+      }
+      
+      #footer{
+      color: #fff;
+      position:relative;
+      margin-top: 200px;   
+      padding-top: 50px;
+      height: 300px;
+      background: #0277bd;
+      }
+      
+      a{
+          color: #fafafa;
+      }
+      
+      .dropdown-item {
+          width: 405px;
+      }
+      .flex-container{
+        margin-left: 16.60%;
+        width: 70%;
+    }
+    
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+    
+      }
+
+    @media (min-width: 1360px) and (max-width: 1399px){
+        .flex-container{
+            width: 80%;
+            margin-left: 14.75%;
+        }
+        #description{
+            left: 10%;
+        }
+    }
+    @media (min-width: 1400px) and (max-width: 1439px){
+        .flex-container{
+            width: 70%;
+            margin-left: 15.75%;
+        }
+        .video{
+            left: 5%;
+        }
+        #description{
+            left: 10%;
+        }
+    }
+
+      @media (min-width: 1920px)  {
+         .video{
+           right: -10%;
+           margin-bottom: 0%;
+        }
+        #description{
+            margin-right: -10%;
+            margin-bottom: 0%;
+        }
+        .tengah h5{
+            margin-right: 0%;
+        }
+        .flex-container{
+            width: 55%;
+            margin-left: 24.75%;
+        } 
+        
+    } 
+      @media (min-width: 2560px){
+
+        .video{
+        margin-left: -30%;
+        margin-top: 5%; 
+        }
+
+        #description{
+        margin-top: 0px;
+        margin-left: -30%;
+        
+        }
+
+        .tengah h5{
+            width: 20%;
+        margin-top: 9%;
+        margin-bottom: 5%;
+        margin-left: -47%;
+        }
+        .flex-container{
+            width: 40%;
+            left: 6.5%;
+        }
+
+     }   
+     
+    @media (min-height : 2560px){
+        #footer{
+            height: 15%;
+        }
+    }
+    @media(min-width:1600px) and (max-width:1679px ){
+        .flex-container{
+            width: 60%;
+            margin-left: 20%;
+        }
+        #description{
+            left: 15%;
+        }
+    }
+
+    @media(min-width: 1680px) and (max-width:1919px){
+        .video{
+            margin-left: 10%;
+        }
+        .flex-container{
+            width: 60%;
+            margin-left: 21.5%;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px){
+    
+        .video{
+            left: 5%;
+        }
+
+    #description{
+        margin-left: 30%;
+    }    
+    .atas h1{
+        margin-top: 5%;
+        font-size: 100px;
+        color: white;
+      
+      }
+      
+      .atas h2{
+      font-size: 35px;
+      color: white;
+      }
+      .flex-container{
+          width: 80%;
+          margin-left: 12.5%;
+      }
+    /* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+    }
+     
+    
+
+
+    @media (min-width: 768px) and (max-width: 1024px)  {
+        .atas h1{
+            font-size: 75px;
+        }
+        .atas h2{
+            font-size: 25px;
+        }
+        #description{
+            left: 30px;
+            bottom: 5%;
+        }
+        #footer{
+            height: 300px;
+        }
+        .flex-container{
+            margin-left: 18.75%;
+        }
+        .tengah h5{
+            margin-top: -10%;
+        }
+      /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
+    } 
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      
+    #description{
+        left: 100px;
+        bottom: 5%;
+    }
+    .flex-container{
+        position: relative;
+        width: 83.5%; 
+        margin-left: 8.5%;
+    }
+    .atas h1{
+        font-size: 75px;
+        margin-top: 5%;
+    }
+    .atas h2{
+        font-size: 27px;
+    }
+    
+    .nav-link2{
+        font-size: 25px;
+    }
+    .tengah h5{
+        margin-top: -10%;
+    }
+      /* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+      }
+      
+      
+    @media (min-width: 600px) and (max-width: 767px) {
+        /* For mobile phones: 
+        Small devices (portrait tablets and large phones)
+        */
+        
+    .atas h1{
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    .tengah{
+        bottom: -100px;
+    }
+    .tengah h5{
+        height: 11em;
+        margin-bottom: 50px;
+    }
+    
+    #footer{
+    font-size: 80%;
+    height: 230px;
+    }
+    #footer h1{
+    font-size: 24px;
+    }
+    #footer h3{
+        font-size: 24px;
+    }
+    
+    .atas h2{
+        font-size: 18px;
+    }
+    .nav-link2{
+        font-size: 15px;    
+    }
+    .flex-container{
+        margin-left: 26%;
+    }
+    
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px){
+      
+        
+        #footer{
+            background: #0277bd;
+            height: 350px;
+        }
+        .tengah h5{
+            height: 8em;
+        }
+        .flex-container{
+            margin-left: 22%;
+        }
+        
+        /* 
+            ##Device = Most of the Smartphones Mobiles (Portrait)
+            ##Screen = B/w 320px to 479px
+          */
+        }
+
+    @media only screen and (max-width: 599px) {
+      
+    .atas h1{
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    
+    .atas h2{
+        font-size: 18px;
+    }
+    
+    .nav-link2{
+        font-size: 15px;
+    }
+    
+    #description{
+        top: -20%;
+        font-size: 8pt;
+    }
+    
+    .tengah{
+        bottom: -40px;
+    }
+    
+    .tengah h5{
+        font-size: 9pt;    
+        margin-top: -150px;
+    }
+    
+    #footer{
+        font-size: 60%;
+        height: 300px;
+    }
+    
+    #footer h1{
+        font-size: 20px;
+    }
+    
+    #footer h3{
+        font-size: 20px;
+    }
+    .flex-container{
+        margin-left: 29%;
+    
+    }
+    .kanan{
+    margin-left: 20%;
+    }
+      }
+      
